@@ -1,16 +1,13 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { Container } from 'typedi';
-// import AuthService from '../../services/auth';
-// import { IUserInputDTO } from '../../interfaces/IUser';
+import AuthenticationService from '../../services/authentication';
 import middlewares from '../middlewares';
 import { celebrate, Joi } from 'celebrate';
 
 const route = Router();
 
 export default (app: Router) => {
-  app.use('/pushregister', route);
-  const logger = Container.get('logger');
-  logger.info("here");
+  app.use('/pushtokens', route);
 
   route.get('/', function (req, res) {
     res.send('hello world')

@@ -1,12 +1,12 @@
 import { Router } from 'express';
 
-import pushregister from './routes/pushregister';
+import pushtokens from './routes/pushtokens';
 
 // guaranteed to get dependencies
 export default () => {
 	const app = Router();
 
-	pushregister(app);
+	pushtokens(app);
 
 	return app
 }

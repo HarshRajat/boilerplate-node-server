@@ -1,3 +1,4 @@
+"use strict";
 // import { Service, Inject } from 'typedi';
 // import jwt from 'jsonwebtoken';
 // import MailerService from './mailer';
@@ -125,3 +126,4 @@
 //     );
 //   }
 // }
+//# sourceMappingURL=example.js.map

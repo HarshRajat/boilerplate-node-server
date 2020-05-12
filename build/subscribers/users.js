@@ -1,3 +1,4 @@
+"use strict";
 // import { Container } from 'typedi';
 // import { EventSubscriber, On } from 'event-dispatch';
 // import events from './events';
@@ -52,3 +53,4 @@
 //     }
 //   }
 // }
+//# sourceMappingURL=users.js.map

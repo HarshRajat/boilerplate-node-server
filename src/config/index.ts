@@ -14,7 +14,7 @@ export default {
   /**
    * Your favorite port
    */
-  port: parseInt(process.env.PORT, 10),
+  port: parseInt((process.env.PORT || '3000'), 10),
 
   /**
    * Used by winston logger
@@ -41,6 +41,6 @@ export default {
    * API configs
    */
   api: {
-    prefix: '/api',
+    prefix: '/apis',
   },
 };

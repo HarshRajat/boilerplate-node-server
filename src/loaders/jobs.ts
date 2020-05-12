@@ -2,7 +2,7 @@ import config from '../config';
 // import EmailSequenceJob from '../jobs/emailSequence';
 import schedule from 'node-schedule';
 
-export default ({ schedule, mysqlConnection }) => {
+export default ({ mysqlConnection }) => {
   // Do Scheduling
   // https://github.com/node-schedule/node-schedule
   // schedule.scheduleJob('42 * * * *', function(){
